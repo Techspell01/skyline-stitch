@@ -1,7 +1,5 @@
-# Malabar Bus Run
+# Sky Skirmish
 
-An original mobile bus-driving arcade game set on Kerala roads. Drive a classic cream-and-red state bus through backwater scenery, hill bends, rain, and local traffic. Stop safely to pick up passengers.
+An original touch-friendly jetpack arena shooter. Move with the left/right buttons, hold BOOST to fly, and FIRE to auto-aim at the nearest rival. Battle three bots for 60 seconds. Each pilot respawns quickly after being tagged out.
 
-Touch controls: hold left/right to steer; hold GO to accelerate; hold BRAKE to slow down; tap HORN for a toot. On desktop, use arrow keys or WASD.
-
-Open the hosted game in Safari and choose **Share → Add to Home Screen**. Game records are stored locally on the device.
+This is a single-player bot battle prototype; online multiplayer is not connected. Best match scores are stored locally on the device. To install on iPhone, open the hosted site in Safari and choose **Share → Add to Home Screen**.
