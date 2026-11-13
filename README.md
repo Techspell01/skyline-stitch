@@ -1,5 +1,7 @@
-# Skyline Stitch: Storm Run
+# Malabar Bus Run
 
-An arcade action game for mobile browsers. Drag to line up glowing stitch gates, build a combo, dodge storm wisps, and tap DASH when your thread meter fills. Each successful stitch repairs your island.
+An original mobile bus-driving arcade game set on Kerala roads. Drive a classic cream-and-red state bus through backwater scenery, hill bends, rain, and local traffic. Stop safely to pick up passengers.
 
-Best runs and island repairs are saved locally on your device. For iPhone, open the hosted site in Safari and choose **Share → Add to Home Screen**. The service worker caches the game for offline play.
+Touch controls: hold left/right to steer; hold GO to accelerate; hold BRAKE to slow down; tap HORN for a toot. On desktop, use arrow keys or WASD.
+
+Open the hosted game in Safari and choose **Share → Add to Home Screen**. Game records are stored locally on the device.

@@ -1,12 +1,12 @@
 {
-  "name": "Skyline Stitch",
-  "short_name": "Sky Stitch",
-  "description": "A little glider. A very big sky.",
+  "name": "Malabar Bus Run",
+  "short_name": "Bus Run",
+  "description": "Drive a classic Kerala state bus through backwater roads, hill bends, and local traffic.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#172d58",
-  "theme_color": "#172d58",
+  "background_color": "#b9e4e9",
+  "theme_color": "#a7d9e9",
   "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
 }
