@@ -1,11 +1,5 @@
-﻿# Skyline Stitch
+# Skyline Stitch: Storm Run
 
-A touch friendly sky glider game for mobile browsers. Your best flights and replay are saved locally on your device.
+An arcade action game for mobile browsers. Drag to line up glowing stitch gates, build a combo, dodge storm wisps, and tap DASH when your thread meter fills. Each successful stitch repairs your island.
 
-## Play on iPhone
-
-Open the published site in Safari, tap **Share**, then **Add to Home Screen**. After its first load, the game is available offline.
-
-## Publish
-
-This is a static site. Serve the files in this directory from an HTTPS host. The service worker caches the game assets for offline play.
+Best runs and island repairs are saved locally on your device. For iPhone, open the hosted site in Safari and choose **Share → Add to Home Screen**. The service worker caches the game for offline play.
