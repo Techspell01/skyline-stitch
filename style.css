@@ -19,4 +19,45 @@ canvas{filter:saturate(1.08)}
 .aim-pad .knob{background:linear-gradient(145deg,#ffb0a8e8,#784765e8)}
 .lift-button{box-shadow:0 0 0 5px #63e8d316,0 7px 18px #020817aa,inset 0 1px #ffffff88}
 .pause-card,.result-card{border-color:#b4f4ed66;background:linear-gradient(145deg,#192b4bf7,#171d39f7);box-shadow:0 25px 80px #020817dd,inset 0 1px #ffffff16}
-.install-tip{box-shadow:0 12px 32px #02081788}
+.install-tip{box-shadow:0 12px 32px #02081788}/* Orbital arena art direction */
+:root{--ink:#eff7ff;--mint:#61e3d4;--coral:#ff708d}
+html,body{background:#080c1b}
+.screen:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,8,19,.12),transparent 38%,rgba(4,8,19,.36));pointer-events:none}
+.eyebrow{top:7%;padding:8px 13px;border:1px solid #a5eced45;border-radius:99px;background:#0e1b2bbd;box-shadow:0 5px 24px #05081766;color:#9af4e5;font-size:8px;letter-spacing:.22em}
+.logo{top:15%;gap:14px}
+.logo-orb{width:62px;height:62px;border:1px solid #a3f6ec;border-radius:20px;transform:rotate(-8deg);background:linear-gradient(145deg,#416478,#182844);box-shadow:0 0 0 5px #7be8da15,0 0 36px #62e5d455}
+.logo h1{font-size:clamp(42px,11vw,54px);line-height:.82;letter-spacing:-.075em;text-shadow:0 4px 30px #051126}
+.logo h1 b{color:#ff8293}
+.tagline{top:30%;padding:8px 12px;border-top:1px solid #a9cae22e;border-bottom:1px solid #a9cae22e;color:#dceafa;font-size:9px;letter-spacing:.2em}
+.home-bottom{bottom:calc(env(safe-area-inset-bottom) + 15px);width:min(88%,380px);gap:9px}
+.match-card{padding:11px 13px;border:1px solid #7de4d543;border-radius:12px;background:linear-gradient(115deg,#172944ed,#111b31ed);box-shadow:0 12px 30px #02081777,inset 0 1px #ffffff18}
+.match-card b{font-size:10px;letter-spacing:.12em}
+.match-card small{font-size:10px}
+.howto{gap:6px;padding:9px 13px;border:1px solid #9db9d01f;border-radius:12px;background:#0c1629d9}
+.howto div{font-size:10px}
+.howto i{width:19px;height:19px;background:#183d4d;color:#7ff3de}
+.primary{min-height:52px;border-radius:11px;background:linear-gradient(105deg,#ff718f,#ffa873);box-shadow:0 4px 0 #923a59,0 12px 26px #ff758a35,inset 0 1px #ffffff8c;font-size:11px;letter-spacing:.13em}
+.bestline{margin-top:2px}
+.hud{left:10px;right:10px;top:calc(env(safe-area-inset-top) + 8px);align-items:center}
+.hud-left{min-width:78px;padding:8px 10px;border:1px solid #b8d6e327;border-radius:11px;background:#101d30d9;backdrop-filter:blur(8px)}
+.hud-left small{font-size:8px}
+.hud-left>b{font-size:23px;font-variant-numeric:tabular-nums}
+.meters{gap:4px}
+.bar{width:52px;height:5px}
+.scoreboard{gap:9px;min-width:104px;justify-content:center;padding:7px 12px;border:1px solid #b8d6e333;border-radius:11px;background:#101d30e8;backdrop-filter:blur(8px)}
+.scoreboard b{font-size:20px;font-variant-numeric:tabular-nums}
+.scoreboard small{font-size:7px}
+.you-score b{color:#ff8293}
+.bot-score b{color:#82b9ff}
+.pause{width:36px;height:36px;border:1px solid #b8d6e344;border-radius:11px;background:#101d30e8}
+.feed{top:88px;padding:9px 15px;border:1px solid #ffe5ad66;border-radius:8px;background:#192339f2;color:#ffe5ad;font-size:10px;letter-spacing:.1em}
+.match-tip{top:calc(env(safe-area-inset-top) + 69px);padding:7px 10px;border:1px solid #b2dce42c;border-radius:7px;background:#0d1a2bdc;font-size:8px}
+.controls{bottom:calc(env(safe-area-inset-bottom) + 16px);padding:0 12px}
+.joystick{border:1px solid #d5e8f35a;background:radial-gradient(circle at 40% 34%,#344c62db,#122339f2 70%);box-shadow:inset 0 0 24px #d7f1ff12,0 10px 28px #0208179c}
+.joystick:before{border-color:#d8eaff36}
+.knob{width:48px;height:48px;border:1px solid #f2f8ffbb;background:linear-gradient(145deg,#7890a5,#314b64);box-shadow:0 4px 12px #020817bd,inset 0 1px #ffffff9c}
+.aim-pad .knob{background:linear-gradient(145deg,#ff9d9f,#743d5a)}
+.lift-button{width:52px;height:52px;background:linear-gradient(145deg,#b1fff0,#49c9ce);box-shadow:0 0 0 5px #63e8d31b,0 7px 18px #020817bb,inset 0 1px #ffffffc7}
+.pause-card,.result-card{border:1px solid #9ae7e058;border-radius:18px;background:linear-gradient(145deg,#14263df7,#11192ff9);box-shadow:0 25px 80px #020817ed,inset 0 1px #ffffff19}
+.stats{border-color:#a3c8d72c;background:#0b1728}
+@media(max-height:700px){.logo{top:11%}.tagline{top:27%}.home-bottom{gap:6px;bottom:calc(env(safe-area-inset-bottom) + 8px)}.match-card{padding:8px 11px}.howto{padding:7px 11px}.controls{bottom:calc(env(safe-area-inset-bottom) + 6px)}}
